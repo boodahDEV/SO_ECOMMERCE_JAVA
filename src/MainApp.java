@@ -38,9 +38,7 @@ public class MainApp extends JFrame {
 	public boolean switchIsActive = true;
 	public static int RETARDO = 1, SALTO = 1;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		MainApp frame = new MainApp();
 		frame.setTitle("SO! ECOMMERCE");
@@ -48,10 +46,7 @@ public class MainApp extends JFrame {
 		frame.setVisible(true);
 	}
 
-	/**
-	 * Create the frame.
-	 */
-
+	
 	public MainApp() {
 		setUndecorated(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
