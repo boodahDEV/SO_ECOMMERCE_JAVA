@@ -37,7 +37,7 @@ public class MainApp extends JFrame {
 	private JTextField jtfusername;
 	public boolean switchIsActive = true;
 	public static int RETARDO = 1, SALTO = 1;
-
+	//CAMbios ! :V
 	
 	public static void main(String[] args) {
 		MainApp frame = new MainApp();
